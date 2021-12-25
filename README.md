@@ -21,7 +21,7 @@ function App (prop) {
         on: {
           input: (e) => data.input.value = e.target.value
         }
-      }),
+      }) (),
     )
   )
 }
